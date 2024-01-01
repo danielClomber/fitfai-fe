@@ -22,18 +22,11 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import HelpIcon from '@mui/icons-material/Help';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
-import { useState } from 'react';
 
 function HomePage() {
-  const [anchorElNav, setAnchorElNav] = useState<null | HTMLElement>(null);
   let navigate = useNavigate();
 
-  // const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-  //   setAnchorElNav(event.currentTarget);
-  // };
-
   const handleNavigation = (path: string | null) => {
-    setAnchorElNav(null);
     if (path) {
       const isInternalNavigation = path[0] === '/';
       if (isInternalNavigation) {
