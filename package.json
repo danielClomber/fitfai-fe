@@ -1,7 +1,7 @@
 {
   "name": "ntp-fe",
   "version": "0.1.0",
-  "homepage": "https://danielClomber.github.io/fitfai-fe",
+  "homepage": "https://fitfai.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
