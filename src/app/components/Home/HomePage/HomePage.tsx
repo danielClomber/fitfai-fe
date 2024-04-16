@@ -22,6 +22,7 @@ import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import HelpIcon from '@mui/icons-material/Help';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
+import ThreePIcon from '@mui/icons-material/ThreeP';
 
 function HomePage() {
   let navigate = useNavigate();
@@ -99,7 +100,7 @@ function HomePage() {
             nutrition insights to offer you a uniquely personalized health
             journey.
           </Typography>
-          <Box>
+          {/* <Box>
             <Button
               variant="contained"
               color="primary"
@@ -119,7 +120,7 @@ function HomePage() {
             >
               Discover Your Path
             </Button>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
       {/* What we offer */}
@@ -363,11 +364,31 @@ function HomePage() {
             }}
           >
             <SmartphoneIcon fontSize="large" sx={{ mr: 2 }} />
-            Progress Tracking & Adjustments
+            Progress Tracking & AI Adjustments
           </Typography>
           <Typography variant="body1">
             Track your workouts, meals, and progress; our AI adapts your plan
-            based on real-world performance and feedback.
+            based on performance and feedback.
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            my: 4
+          }}
+        >
+          <Typography
+            variant="h4"
+            sx={{
+              display: 'flex',
+              alignItems: 'center'
+            }}
+          >
+            <ThreePIcon fontSize="large" sx={{ mr: 2 }} />
+            Nutrition & Fitness Guidance
+          </Typography>
+          <Typography variant="body1">
+            Reach out with questions anytime and our certified fitness experts
+            will adjust your plan based on real-world feedback.
           </Typography>
         </Box>
       </Container>
@@ -433,7 +454,7 @@ function HomePage() {
           >
             AI-Powered Health for a Better You
           </Typography>
-          <Box>
+          {/* <Box>
             <Button
               variant="contained"
               color="primary"
@@ -449,7 +470,7 @@ function HomePage() {
             >
               Start Your AI Fitness Adventure
             </Button>
-          </Box>
+          </Box> */}
         </Box>
       </Container>
       {/* About Us */}
