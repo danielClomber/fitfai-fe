@@ -1,7 +1,6 @@
 import './HomePage.css';
 import {
   Box,
-  Button,
   Card,
   CardActionArea,
   CardContent,
@@ -14,10 +13,9 @@ import whoWeAreImage from '../../../../assets/images/who-we-are.png';
 import ourMissionImage from '../../../../assets/images/our-mission.png';
 import aiBg1Image from '../../../../assets/images/ai-bg1.png';
 import { styles } from '../../../../assets/styles/styles';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import ImportantDevicesIcon from '@mui/icons-material/ImportantDevices';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 import SmartphoneIcon from '@mui/icons-material/Smartphone';
 import HelpIcon from '@mui/icons-material/Help';
@@ -25,18 +23,18 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 import ThreePIcon from '@mui/icons-material/ThreeP';
 
 function HomePage() {
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
-  const handleNavigation = (path: string | null) => {
-    if (path) {
-      const isInternalNavigation = path[0] === '/';
-      if (isInternalNavigation) {
-        navigate(path);
-      } else {
-        window.location.assign(path);
-      }
-    }
-  };
+  // const handleNavigation = (path: string | null) => {
+  //   if (path) {
+  //     const isInternalNavigation = path[0] === '/';
+  //     if (isInternalNavigation) {
+  //       navigate(path);
+  //     } else {
+  //       window.location.assign(path);
+  //     }
+  //   }
+  // };
 
   return (
     <>
@@ -155,7 +153,7 @@ function HomePage() {
             principles, tailored to your fitness level, goals, and personal
             preferences.
           </Typography>
-          <Box>
+          {/* <Box>
             <Button
               variant="outlined"
               sx={{
@@ -173,7 +171,7 @@ function HomePage() {
             >
               Get your plan <RocketLaunchIcon sx={{ ml: 1 }} />
             </Button>
-          </Box>
+          </Box> */}
         </Box>
         <Box
           sx={{
