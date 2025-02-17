@@ -26,7 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "mkdir -p ../docs/deleteAccount && rm -rf ../docs/deleteAccount/* && mv build/* ../docs/deleteAccount",
+    "postbuild": "mkdir -p ../docs/deleteAccount && rm -rf ../docs/deleteAccount/* && mv build/* ../docs/deleteAccount/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
