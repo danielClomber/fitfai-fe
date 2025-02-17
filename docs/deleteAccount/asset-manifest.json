@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/delete-account-instructions/static/css/main.3568d250.css",
+    "main.js": "/delete-account-instructions/static/js/main.89f225ec.js",
+    "static/js/787.94b69906.chunk.js": "/delete-account-instructions/static/js/787.94b69906.chunk.js",
+    "static/media/fitfai-icon.png": "/delete-account-instructions/static/media/fitfai-icon.0a2c5d7ff1847450a688.png",
+    "index.html": "/delete-account-instructions/index.html",
+    "main.3568d250.css.map": "/delete-account-instructions/static/css/main.3568d250.css.map",
+    "main.89f225ec.js.map": "/delete-account-instructions/static/js/main.89f225ec.js.map",
+    "787.94b69906.chunk.js.map": "/delete-account-instructions/static/js/787.94b69906.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3568d250.css",
+    "static/js/main.89f225ec.js"
+  ]
+}
